@@ -8,6 +8,7 @@
             "JosimarCamilo\\LaravelCore\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Josimar Camilo",
