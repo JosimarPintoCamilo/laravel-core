@@ -1,6 +1,6 @@
 {
     "name": "josimarcamilo/laravel-core",
-    "description": "Autenticação de usuário",
+    "description": "Utilidades para laravel",
     "type": "library",
     "license": "MIT",
     "autoload": {
