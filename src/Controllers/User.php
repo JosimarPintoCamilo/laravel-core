@@ -1,13 +1,14 @@
 <?php
 
-namespace JosimarCamilo\LaravelCore\Http\Controllers;
+namespace JosimarCamilo\LaravelCore\Controllers;
 
-use App\Models\User;
+use App\Models\User as UserModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use JosimarCamilo\LaravelCore\Controllers\Controller;
 
-class UserController extends Controller
+class User extends Controller
 {
     public function create(Request $req)
     {
@@ -19,7 +20,7 @@ class UserController extends Controller
 
         $credentials['password'] = Hash::make($credentials['password']);
 
-        $user = User::create($credentials);
+        $user = UserModel::create($credentials);
 
         return response()->json($user);
     }
