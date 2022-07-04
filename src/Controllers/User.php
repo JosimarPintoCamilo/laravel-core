@@ -6,8 +6,6 @@ use App\Models\User as UserModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use JosimarCamilo\LaravelCore\Controllers\Controller;
-
 class User extends Controller
 {
     public function create(Request $req)
