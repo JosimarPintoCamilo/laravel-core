@@ -1,0 +1,20 @@
+{
+    "name": "josimarcamilo/laravel-core",
+    "description": "Autenticação de usuário",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JosimarCamilo\\LaravelCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Josimar Camilo",
+            "email": "josimarifmg@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^7.0"
+    }
+}
