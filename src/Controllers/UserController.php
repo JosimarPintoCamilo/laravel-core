@@ -5,8 +5,8 @@ namespace JosimarCamilo\LaravelCore\Controllers;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use JosimarCamilo\LaravelCore\Request\TokenRequest;
-use JosimarCamilo\LaravelCore\Request\UserRequest;
+use JosimarCamilo\LaravelCore\Requests\TokenRequest;
+use JosimarCamilo\LaravelCore\Requests\UserRequest;
 
 class UserController extends Controller
 {
