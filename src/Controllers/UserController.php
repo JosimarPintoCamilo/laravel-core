@@ -2,9 +2,9 @@
 
 namespace JosimarCamilo\LaravelCore\Controllers;
 
-use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use JosimarCamilo\LaravelCore\Models\User;
 use JosimarCamilo\LaravelCore\Requests\TokenRequest;
 use JosimarCamilo\LaravelCore\Requests\UserRequest;
 
