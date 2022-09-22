@@ -31,6 +31,7 @@ class UserController extends Controller
             return response()->json(["error" => "invalid crentials"], 400);
         }
         
+        $req->user()->tokens()->delete();
         $token = $req->user()->createToken($req->token_name);
 
         return response()->json(['token' => $token->plainTextToken]);

@@ -19,6 +19,6 @@
         "orchestra/testbench": "^7.0"
     },
     "require": {
-        "laravel/sanctum": "4.x-dev"
+        "laravel/sanctum": "3.0.*"
     }
 }
