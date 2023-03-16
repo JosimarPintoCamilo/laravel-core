@@ -23,7 +23,7 @@ class UserController extends Controller
 
         $user = User::create($credentials);
 
-        event(new Registered($user);
+        event(new Registered($user));
 
         return response()->json($user);
     }
