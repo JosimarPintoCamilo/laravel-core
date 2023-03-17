@@ -21,9 +21,9 @@ class UserController extends Controller
 
         $credentials['password'] = Hash::make($req->password);
 
-        $user = (new User($credentials))->save();
+        $user = User::create($credentials);
 
-        // event(new Registered($user));
+        event(new Registered($user));
 
         return response()->json($user);
     }
